@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+#meditation {
+    display: flex;
+    /* background-color: white; */
+    background-image: linear-gradient(to top, rgb(248, 103, 103), rgb(241, 175, 103));
+    height: 100vh
+}
+
+.cardHolder {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 20px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    width: 100vw;
+    font-family: "Montserrat", sans-serif;
+    /* background-image: linear-gradient(to top, rgb(243, 88, 88), rgb(241, 171, 95)); */
+}
+
+
+.card {
+    border-radius: 8px;
+    padding: 6px;
+    background: rgb(25, 24, 24) !important;
+}
+.card img {
+    height: 200px;
+    border-radius: 8px;
+}
