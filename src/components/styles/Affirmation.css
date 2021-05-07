@@ -1,6 +1,7 @@
 
 #affirmations {
     display: flex;
-    background-image: linear-gradient(to top, rgb(59, 177, 136), rgb(223, 241, 103));
+    /* background-image: linear-gradient(to top, rgb(59, 177, 136), rgb(223, 241, 103)); */
+    background-image: linear-gradient(to top, rgb(248, 103, 103), rgb(241, 175, 103));
     height: 100vh
 }

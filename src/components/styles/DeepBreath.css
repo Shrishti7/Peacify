@@ -28,7 +28,7 @@
 }
 
 
-.fade-out {
+/* .fade-out {
     animation: fadeOut ease 8s;
     -webkit-animation: fadeOut ease 8s;
     -moz-animation: fadeOut ease 8s;
@@ -78,4 +78,4 @@
     100% {
       opacity:0.5;
   }
-}
+} */

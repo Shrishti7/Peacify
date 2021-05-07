@@ -2,14 +2,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 
+/* class selector */
+.meditate{
+    background-image: linear-gradient(to top, rgb(1, 1, 2), rgb(44, 35, 110)) !important;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height:max-content;
+    padding-bottom: 60px;
+}
+
+.mhead{
+    background-color: transparent;
+    padding: 15px;
+    margin: left;
+    width: 100px;
+    color: white;
+}
+
+/* ID selector*/
 #meditation {
     display: flex;
     /* background-color: white; */
-    background-image: linear-gradient(to top, rgb(248, 103, 103), rgb(241, 175, 103));
-    height: 100vh
+    height: 100vh;
 }
 
-.cardHolder {
+#cardHolder {
+    background-color: transparent;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -17,7 +37,7 @@
     margin: auto;
     padding: 10px;
     border-radius: 10px;
-    justify-content: space-evenly;
+    justify-content: space-around;
     text-align: center;
     align-items: center;
     width: 100vw;
@@ -27,11 +47,70 @@
 
 
 .card {
-    border-radius: 8px;
+    border-radius: 12px;
     padding: 6px;
-    background: rgb(25, 24, 24) !important;
+    width: 100%;
+    /* background: rgb(25, 24, 24) !important; */
+    background-color: transparent;
 }
 .card img {
-    height: 200px;
-    border-radius: 8px;
+    height: 350px;
+    /* position:absolute; */
+    width: 100%;
+    border-radius: 12px;
+    background-color: teal;
 }
+
+.card-body{
+    padding: 6px;
+    /* background-color: rgba(5, 11, 88, 0.466); */
+    width: 96%;
+    height: 70px;
+    position: absolute;
+    bottom: 5px;
+    z-index: 1;
+    border-radius: 0px 0px 12px 12px;
+    border: transparent;
+    
+}
+.card-text {
+    background-color: transparent;
+}
+#o{
+    background-color: rgba(109, 37, 8, 0.612);
+}
+#w{
+    background-color: rgba(38, 143, 69,0.612);
+}
+#f{
+    background-color: rgba(45, 95, 55, 0.612);
+}
+#r{
+    background-color: rgba(12, 14, 12, 0.612);
+}
+#spring{
+    background-color: rgba(213, 158, 207, 0.612);
+}
+#a{
+    background-color: rgba(42, 109, 167, 0.673);
+}
+#m{
+    background-color: rgba(37, 15, 164, 0.612);
+}
+#stars{
+    background-color: rgba(34, 18, 125, 0.612);
+}
+#stars2{
+    background-color: rgba(73, 50, 206, 0.612);
+}
+#fields{
+    background-color: rgba(172, 93, 48, 0.612);
+}
+
+#rain {
+    display:flex;
+    background-color: white;
+    height: 100vh;
+    color: black;
+    text-align: center;
+  }
